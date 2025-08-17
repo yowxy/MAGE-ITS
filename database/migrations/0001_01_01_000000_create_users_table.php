@@ -14,10 +14,22 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('username');
+            $table->enum('role', ['pasien','admin','dokter']);
+            $table->dateTime('tanggal');
+            $table->integer('telephone');
+            $table->integer('age');
+            $table->string('job')->nullable();
+
+
+            $table->string('education')->nullable();
+            $table->string('address');
+             $table->enum('blood_type', ['A+','A-','B+','B-','AB+','AB-','O+','O-'])->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->softDeletes();
             $table->timestamps();
         });
 
