@@ -17,6 +17,8 @@ use Filament\Tables\Table;
 class RiwayatMedisResource extends Resource
 {
     protected static ?string $model = RiwayatMedis::class;
+   protected static ?string $navigationLabel = 'Riwayat Kesehatan';
+
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::Beaker;
 

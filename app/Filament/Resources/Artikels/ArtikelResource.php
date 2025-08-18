@@ -17,6 +17,8 @@ use Filament\Tables\Table;
 class ArtikelResource extends Resource
 {
     protected static ?string $model = Artikel::class;
+       protected static ?string $navigationLabel = 'Artikel Kesehatan';
+
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::Newspaper;
 
