@@ -6,3 +6,6 @@ Route::get('/', function () {
     return view('livewire.landing-page');
 });
 
+Route::get('/login', function () {
+    return view('livewire.auth.login');
+});
