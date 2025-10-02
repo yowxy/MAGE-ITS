@@ -1,6 +1,6 @@
 <div class="w-full p-10 flex justify-between  ">
     <ul class="flex gap-4 text-black text-xl items-center font-medium">
-        <li class="text-green-500 text-3xl font-semibold font-['Poppins']">JagaRaga</li>
+        <li class="text-green-500 text-3xl font-semibold font-poppins">JagaRaga</li>
         <li>Beranda</li>
         <li>Fitur</li>
         <li>Tentang</li>

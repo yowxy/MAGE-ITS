@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-<div>
-    {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
-</div>
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-
+@extends('layouts.view')
 <body>
     <div class="flex w-full h-screen items-center">
         <div class="w-1/2 h-full flex justify-center items-center">
@@ -43,6 +28,3 @@
         </div>
     </div>
 </body>
-
-</html>
->>>>>>> 07c098361707684c389b186b9dfdbec36e75fc5d
