@@ -38,6 +38,102 @@
                 </p>
             </div>
 
+            <div class="flex justify-center gap-28 flex-row">
+                @include('components.fitur-unggulan.kesehatanPribadi')
+                @include('components.fitur-unggulan.konsultasi-kesehatan')
+            </div>
+            <div class="flex justify-center mt-9">
+                @include('components.fitur-unggulan.informasi-edukasi')
+            </div>
+            <div class="flex justify-center gap-28 mt-9 mb-9">
+                @include('components.fitur-unggulan.reminder')
+                @include('components.fitur-unggulan.riwayat-medis')
+            </div>
+
+            <div class="flex justify-center mt-36 flex-col ">
+                <h1 class="text-black font-semibold text-3xl text-center">Kenapa Memilih Jaga Raga</h1>
+                <div>
+                 <div class="flex justify-center mt-14 gap-6">
+                    {{-- kemudahan akses --}}
+                    <div class="relative group w-[351px] h-[322px] rounded-4xl overflow-hidden shadow-2xs hover:cursor-pointer">
+
+                        <!-- Gambar -->
+                        <img src="{{ asset('images/kemudahan-akses.png') }}"
+                            alt="Kemudahan Akses"
+                            class="w-[351px] h-[322px] object-cover">
+
+                        <!-- Overlay Hitam Transparan -->
+                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+
+                        <!-- Teks -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-500 px-4">
+                        <h3 class="font-semibold text-lg">Kemudahan Akses</h3>
+                        <p class="text-sm mt-2">
+                            Tidak perlu antre di rumah sakit, semua bisa diakses dari rumah 24/7.
+                        </p>
+                        </div>
+
+                    </div>
+
+                    <div class="relative group w-[351px] h-[322px] rounded-4xl overflow-hidden shadow-2xs hover:cursor-pointer">
+
+                        <!-- Gambar -->
+                        <img src="{{ asset('images/layanan-integrasi.png') }}"
+                            alt="Kemudahan Akses"
+                            class="w-[351px] h-[322px] object-cover">
+
+                        <!-- Overlay Hitam Transparan -->
+                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+
+                        <!-- Teks -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-500 px-4">
+                        <h3 class="font-semibold text-lg">Layanan Integrasi</h3>
+                        <p class="text-sm mt-2">
+                            mulai dari tracking kesehatan, konsultasi, <br/>
+                            edukasi, hingga penyimpanan riwayat <br/>
+                            medis. <br/>
+                         </p>
+                        </div>
+
+                    </div>
+
+                    <div class="relative group w-[351px] h-[322px] rounded-4xl overflow-hidden shadow-2xs hover:cursor-pointer">
+
+                        <!-- Gambar -->
+                        <img src="{{ asset('images/keamanan-data.png') }}"
+                            alt="Kemudahan Akses"
+                            class="w-[351px] h-[322px] object-cover">
+
+                        <!-- Overlay Hitam Transparan -->
+                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+
+                        <!-- Teks -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-500 px-4">
+                        <h3 class="font-semibold text-lg">Privasi & Keamanan Data</h3>
+                        <p class="text-sm mt-2">
+                            Data kesehatan Anda aman dan hanya <br/>
+                            Anda yang bisa mengaksesnya. <br/>
+                        </p>
+                        </div>
+
+                    </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="mt-32 flex flex-col items-center">
+                <h1 class="font-semibold text-3xl mb-8">Testimoni Pengguna</h1>
+                <div class="w-full max-w-5xl">
+                    @include('components.testimoni-pengguna.testimoni-pengguna')
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 </body>
