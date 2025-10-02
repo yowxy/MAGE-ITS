@@ -38,6 +38,7 @@
                 </p>
             </div>
 
+<<<<<<< HEAD
             <div class="flex justify-center gap-28 flex-row">
                 @include('components.fitur-unggulan.kesehatanPribadi')
                 @include('components.fitur-unggulan.konsultasi-kesehatan')
@@ -134,6 +135,8 @@
 
 
 
+=======
+>>>>>>> 07c098361707684c389b186b9dfdbec36e75fc5d
         </div>
     </div>
 </body>
