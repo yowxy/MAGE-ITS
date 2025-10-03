@@ -15,9 +15,7 @@
         <x-navbar />
 
         <div class="flex flex-1">
-            {{-- Sidebar --}}
-            <x-sidebar />
-
+       
             {{-- Main Content --}}
             <main class="flex-1 p-6">
                 {{ $slot }}
