@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper', {
     modules: [Navigation, Pagination],
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
     navigation: {
