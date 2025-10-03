@@ -8,7 +8,7 @@
         <li>Artikel</li>
         <li>Panduan</li>
     </ul>
-    <div class="font-semibold text-xl flex">
+    <div class="font-semibold text-xl flex justify-evenly">
         <a href="{{ route('register') }}" wire:navigate class="mr-3">Sign up</a>
         <a href="{{ route('login') }}" wire:navigate
            class="bg-green-500 rounded-lg p-4 text-white h-10 w-[117px] flex items-center justify-center">
